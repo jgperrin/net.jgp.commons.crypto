@@ -1,3 +1,4 @@
-# net.jgp.commons.crypto
+# commons-crypto
 
-Very basic library to handle crypto operations
+The idea of this library is to make cryptography extremely simple, so the developer can use methods to get done things quickly.
+
