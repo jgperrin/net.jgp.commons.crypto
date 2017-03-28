@@ -4,10 +4,22 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * Handles MD5 digesting. 
+ * 
+ * You can use either by instantiating the class with a String or call the static method digest().
+ * 
+ * @author jgp
+ */
 public class MD5 {
 
 	private String digest;
 
+	/**
+	 * Constructor taking the String to digest.
+	 * 
+	 * @param messageToDigest
+	 */
 	public MD5(String messageToDigest) {
 		byte[] bytesOfMessage;
 		try {
@@ -36,10 +48,21 @@ public class MD5 {
 		this.digest = sb.toString();
 	}
 
+	/**
+	 * Returns the digest.
+	 * 
+	 * @return 32 character string containing the digest.
+	 */
 	public String getDigest() {
 		return this.digest;
 	}
 
+	/**
+	 * Fast method to return a MD5 digest from a String in one operation.
+	 * 
+	 * @param messageToDigest Message to digest.
+	 * @return 32 character string containing the digest.
+	 */
 	public static String digest(String messageToDigest) {
 		return new MD5(messageToDigest).getDigest();
 	}
