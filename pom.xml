@@ -4,12 +4,14 @@
 	<groupId>net.jgp</groupId>
 	<artifactId>commons-crypto</artifactId>
 	<version>1.0.1</version>
+	
 	<licenses>
 		<license>
 			<name>The Apache License, Version 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 		</license>
 	</licenses>
+	
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
@@ -20,6 +22,7 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -43,6 +46,7 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -51,6 +55,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<url>https://github.com/jgperrin/net.jgp.commons.crypto</url>
 	<description>Commons Cryptography: The idea of this library is to make cryptography extremely simple, so the user can use methods to get done things quickly.</description>
 	<organization>
