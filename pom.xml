@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.jgp</groupId>
 	<artifactId>commons-crypto</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 
 	<dependencies>
 		<dependency>
@@ -58,7 +58,7 @@
 
 
 	<url>https://github.com/jgperrin/net.jgp.commons.crypto</url>
-	<description>Commons Cryptography: The idea of this library is to make cryptography extremely simple, so the user can use methods to get done things quickly.</description>
+	<description>Commons Cryptography: The idea of this library is to make cryptography extremely simple, so the user can use methods to get things done quickly.</description>
 	<organization>
 		<name>JGP.net</name>
 		<url>http://jgp.net</url>
